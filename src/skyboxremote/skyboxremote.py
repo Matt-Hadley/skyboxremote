@@ -213,6 +213,10 @@ class RemoteControl:
         by sending a GET request to a predefined URI. SkyQ support is possible but
         not yet implemented or tested.
 
+        Credit:
+            This technique is inspired by contributions from C4rtm4N on the Domoticz forums:
+            https://forum.domoticz.com/viewtopic.php?t=10380&start=22.
+
         Returns:
             str: 'on' if the Sky box is powered on, 'off' if it is powered off.
 
